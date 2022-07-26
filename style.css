@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@400;600&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+
+.header h3{
+ font-family: PT Serif;
+ font-size: 2.1rem;
+}
+
+.header{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 3rem;
+ width: 100%;
+}
+
+.header .header-text{
+ width: 40%;
+}
+
+.header .header-text h4{
+ font-weight: 600;
+ font-size: 1.5rem;
+}
+.header .header-text p{
+ font-weight: 400;
+ font-size: 1rem;
+}
+
+.container{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ justify-items: center;
+ gap: 4rem;
+ padding: 4rem 9rem;
+}
+
+.container.member{
+max-width: 300px;
+margin: auto;
+margin-bottom: 4rem;
+}
+
+.member img{
+ width: 90%;
+ cursor: pointer;
+}
+.member{
+position: relative;
+}
+
+.member:nth-child(2){
+ margin-top: 5rem;
+ margin-bottom: 0;
+}
+.member:nth-child(5){
+ margin-top: 5rem;
+ margin-bottom: 0;
+}
+
+.member .prof{
+ transform: rotate(90deg);
+ position: absolute;
+ top: 3.5rem;
+ right: -3.7rem;
+}
+footer a{
+ text-decoration: none;
+}
+footer{
+text-align: center;
+}
+
+@media screen and (max-width: 768px){
+ .header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+ }
+  .header .header-text {
+   width: 100%;
+  }
+.container {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+ }
+.container.member {
+  width: 100%;
+}
+.member img {
+ width: 6rem;
+}
+.member .prof {
+ transform: rotate(90deg);
+ position: absolute;
+ top: 2rem;
+ right: -2.9rem;
+ font-size: .6rem;
+}
+.member .name{
+ font-size: .8rem;
+}
+.member:nth-child(2) {
+ margin-top: 1.9rem;
+ margin-bottom: 0;
+}
+.member:nth-child(4) {
+ margin-top: 1.9rem;
+ margin-bottom: 0;
+}
+.member:nth-child(6) {
+ margin-top: 1.9rem;
+ margin-bottom: 0;
+}
+.member:nth-child(5) {
+ margin-top: 0;
+ margin-bottom: 0;
+}
+}
