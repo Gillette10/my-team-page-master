@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://github.com/Gillette10/my-team-page-master.git">
+    <a href="https://github.com/Gillette10/my-team-page-master.git">
       Solution
     </a>
     <span> | </span>
