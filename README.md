@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://https://myteampage6.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://https://github.com/Gillette10/my-team-page-master.git">
       Solution
     </a>
     <span> | </span>
@@ -39,17 +39,13 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- My demo is being deployed on <a href="https://app.netlify.com/">Netlify</a>
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [HTML](https://html.com/)
-- [Vue.js](https://vuejs.org/)
 - [CSS](https://css.com/)
 
 ## Features
